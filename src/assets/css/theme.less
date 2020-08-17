@@ -1,0 +1,213 @@
+/*
+    view-design 主题样式修改
+*/
+@import '~view-design/src/styles/index.less';
+
+@primary-color: @default-theme-color;
+
+.ivu-modal-content{
+    border-radius: 6px;
+    overflow: hidden;
+
+    .msg-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+        font-size: 16px;
+    }
+
+    .ivu-modal-header{
+        height: 45px;
+        padding:0 16px;
+        background: @default-model-header-bg;
+        box-shadow: 0px 1px 4px rgba(52, 92, 222, .36);
+
+        .ivu-modal-header-inner{
+            height: 100%;
+            line-height: 45px;
+            font-weight: normal;
+        }
+    }
+
+    .ivu-modal-body{
+        overflow: hidden;
+        position: relative;
+    }
+
+    .ivu-modal-close{
+        right: 5px;
+        top: 3px;
+
+        .ivu-icon-ios-close{
+            font-size: 38px;
+            color: #444;
+
+            /* &::before{
+                color: transparent;
+                background: url(~img/comm/ht-dialog-close.png) no-repeat;
+            } */
+        }
+    }
+
+    .ivu-modal-footer{
+        text-align: center;
+
+        .ivu-btn:not(:last-child){
+            margin-right: 8px;
+        }
+    }
+}
+
+.ivu-select{
+    .ivu-select-dropdown{
+        width: 100%!important;
+        left: 0!important;
+    }
+}
+
+.ivu-tree-arrow {
+    display: none !important;
+}
+.ivu-tree ul li {
+    list-style: none;
+    margin: 0px 0px;
+    padding: 2px 0 0 5px !important;
+    white-space: nowrap;
+    outline: 0;
+}
+.ivu-checkbox-inner {
+    left: 3px;
+}
+
+.ivu-checkbox{
+    margin-right: 3px;
+}
+
+
+.ivu-table{
+    border-top: 1px solid @default-border-line;
+    tr{
+        &.ivu-table-row-hover td{
+            background: #F6F9FE;
+        }
+
+        th,td{
+            height: 42px;
+            text-align: center;
+            &:first-child{
+                border-left: 1px solid @default-border-line;
+            }
+            &:last-child{
+                border-right: 1px solid @default-border-line;
+            }
+        }
+
+        th{
+            background: #EBF0FD;
+            font-weight: normal;
+            color: #333;
+            
+            &:not(:last-child){
+                border-right: 1px solid #DEDEDE;
+            }
+        }
+
+        td{
+            // &:not(:last-child){
+            //     border-right: 0;
+            // }
+
+            button:not(:last-child){
+                margin-right: 10px;
+            }
+
+            .c-blue {color:@default-theme-color}
+            .c-green{color:#00B331}
+            .c-red  {color:#E02020}
+            .c-orange{color:#ff9900}
+        }
+        
+        .link-btn{
+            position: relative;
+            display: inline-block;
+            padding:0 10px;
+            font-size: 14px;
+
+            /* &:not(:last-child)::after{
+                content: '';
+                position: absolute;
+                top: 3px;
+                right: 0;
+                display: inline-block;
+                width: 1px;
+                height: 16px;
+                background: @default-border-line;
+            } */
+        }
+        
+
+        .cursor{
+            cursor: pointer;
+        }
+        .not-allowed{
+            cursor:not-allowed
+        }
+    }
+    .ivu-table-cell{
+        padding: 0;
+        div{
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        & > div{
+            line-height: 1.1;
+            padding-top: 7px;
+        }
+        & > span{
+            white-space: nowrap;
+        }
+    }
+
+
+    .tbl-tooltip{
+        width: 100%;
+    }
+
+    .ivu-table-column-left{
+        text-align: left;
+        padding: 0 10px 0 15px;
+    }
+}
+
+.ivu-tooltip-inner{
+    white-space: normal;
+}
+
+.ivu-form-item{
+
+    &.no-margin-left {
+        .ivu-form-item-content{
+            margin-left:0!important;
+        }
+    }
+
+    .ivu-form-item-error-tip{
+        z-index: 100;
+        white-space: nowrap;
+    }
+}
+
+.ivu-radio-group{
+    .ivu-radio-wrapper{
+        margin-right: 0;
+        &:not(:last-child){
+            margin-right: 15px;
+        }
+    }
+}
+
+.ivu-select{
+    position: relative;
+}
