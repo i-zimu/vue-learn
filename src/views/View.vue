@@ -2,27 +2,28 @@
 <template>
   <div class="view">
     <h1>This is a viewUi page</h1>
-    <SelectDrop />
+    <ViewUi />
   </div>
 </template>view
 
 <script>
 
-import SelectDrop from "../components/ViewUi"
+import ViewUi from "../components/ViewUi"
 
 export default {
     name:'View',
     components:{
-        SelectDrop
+        ViewUi
     }
 }
 </script>
 <style lang="less" scoped>
 .view{
-  width: 90%;
+  width: 100%;
   height: 90vh;
   background: #ccc;
   margin: 20px auto 40px;
+  text-align: center;
 }
  h1{
    margin-top: 60px;

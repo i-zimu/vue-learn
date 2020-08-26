@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld msg="ZDWW学习锦集"/>
+    <HelloWorld msg="前端学习锦集"/>
   </div>
 </template>
 

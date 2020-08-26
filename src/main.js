@@ -9,6 +9,10 @@ import ViewUI from 'view-design';
 import 'view-design/dist/styles/iview.css';
 import './common/commonCss.less';
 
+//引入echart的全部组件
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
+
 // Vue.use(VueRouter);
 Vue.use(ViewUI);
 
