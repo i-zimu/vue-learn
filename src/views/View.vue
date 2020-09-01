@@ -21,12 +21,14 @@ export default {
 .view{
   width: 100%;
   height: 90vh;
-  background: #ccc;
+  // background: #ccc;
   margin: 20px auto 40px;
   text-align: center;
+  color: #fff;
+
 }
  h1{
    margin-top: 60px;
-   color: #000;
+   color: #fff;
  }
 </style>

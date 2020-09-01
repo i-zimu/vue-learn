@@ -22,7 +22,6 @@
       <Breadcrumb>
         <BreadcrumbItem to="/">Home</BreadcrumbItem>
         <BreadcrumbItem to="/view">View</BreadcrumbItem>
-        <!-- <BreadcrumbItem to="/larScreen/index">大屏展示页面1</BreadcrumbItem> -->
     </Breadcrumb>
     <br>
     <br>

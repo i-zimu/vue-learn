@@ -1,12 +1,6 @@
 <template>
-<div class="total">
-     <ul>
-       <li @click="Change()">1111</li>
-       <li @click="Change()">2222</li>
-       <li @click="Change()">3333</li>
-       <li @click="Change()">4444</li>
-       <li @click="Change()">5555</li>
-     </ul>
+<div class="total" >
+       <div @click="Change()"></div>
 </div>
 </template>
 <script>
@@ -14,8 +8,8 @@ import $ from 'jquery'
  export default{
   methods:{
     Change(){
-      $("li").toggleClass("li")
-      console.dir($("li"));
+      $("div").toggleClass("div")
+      // console.dir($("div"));
     }
   },
  }
@@ -29,16 +23,17 @@ import $ from 'jquery'
   left: 200;
   width: 100%;
   margin: 60px auto 0;
-  li{
-    display: inline-block;
-    width: 1200px;
-    height: 40px;
+  div{
+    display: indivne-block;
+    width: 1440px;
+    height: 900px;
     margin: 10px auto;
     background: pink;
+    background: url(../../assets/img/bg/bg-home.jpg);
     color: #000;
   }
-  .li{
-    background:url(../../assets/img/newScreen/bs-back.png);
+  .div{
+    background:url(../../assets/img/bg/bg.jpg);
   }
 }
 </style>

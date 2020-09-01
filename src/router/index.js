@@ -16,24 +16,24 @@ Vue.use(VueRouter)
     component: () => import('../views/View.vue')
   },
   {
-    path: '/larScreen/index',
-    name: 'LargeScreen',
-    component: () => import('../views/larScreen/index.vue')
+    path: '/JavaScript/index',
+    name: 'JavaScript',
+    component: () => import('../views/JavaScript/index.vue')
   },
   {
-    path: '/larScreen/page1',
-    name: 'LargeScreen',
-    component: () => import('../views/larScreen/page1.vue')
+    path: '/JavaScript/page1',
+    name: 'JavaScript',
+    component: () => import('../views/JavaScript/page1.vue')
   },
   {
-    path: '/larScreen/page2',
-    name: 'LargeScreen',
-    component: () => import('../views/larScreen/page2.vue')
+    path: '/JavaScript/page2',
+    name: 'JavaScript',
+    component: () => import('../views/JavaScript/page2.vue')
   },
   {
-    path: '/project/example',
+    path: '/echarts/example',
     name: 'example',
-    component: () => import('../views/project/example.vue')
+    component: () => import('../views/echarts/example.vue')
   },
   // {
   //   path: '/project/gansuMap',
@@ -41,9 +41,9 @@ Vue.use(VueRouter)
   //   component: () => import('../views/project/gansuMap.vue')
   // },
   {
-    path: '/project/chinaMap',
+    path: '/echarts/chinaMap',
     name: 'chinaMap',
-    component: () => import('../views/project/chinaMap.vue')
+    component: () => import('../views/echarts/chinaMap.vue')
   },
   {
     path: '/jQuery/page1',

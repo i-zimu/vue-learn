@@ -12,9 +12,7 @@
     <ul>
       <li><router-link to="/jQuery/page1">jQuery</router-link></li>|
       <li><router-link to="/view">View UI</router-link></li>|
-      <li><router-link to="/larScreen/index">案例公开</router-link></li>
-      <li><router-link to="/larScreen/page1">信访事项查询</router-link></li>
-      <li><router-link to="/larScreen/page2">单选框显示/隐藏</router-link></li>
+      <li><router-link to="/JavaScript/index">JavaScript原生练习</router-link></li>
 
     </ul>
     </div>
@@ -29,9 +27,9 @@
     <div>
     <h3>Echarts 实例</h3>
     <ul>
-      <li><router-link to="/project/example">入门示例</router-link></li>|
-      <li><router-link to="/project/gansuMap">甘肃地图</router-link></li>|
-      <li><router-link to="/project/chinaMap">中国地图</router-link></li>
+      <li><router-link to="/echarts/example">入门示例</router-link></li>|
+      <li><router-link to="/echarts/gansuMap">甘肃地图</router-link></li>|
+      <li><router-link to="/echarts/chinaMap">中国地图</router-link></li>
     </ul>
     </div>
   </div>
