@@ -12,7 +12,9 @@
     <ul>
       <li><router-link to="/jQuery/page1">jQuery</router-link></li>|
       <li><router-link to="/view">View UI</router-link></li>|
-      <li><router-link to="/JavaScript/index">JavaScript原生练习</router-link></li>
+      <li><router-link to="/JavaScript/index">JavaScript原生练习</router-link></li>|
+      <li><router-link to="/Vue/index">Vue.js</router-link></li>
+
 
     </ul>
     </div>

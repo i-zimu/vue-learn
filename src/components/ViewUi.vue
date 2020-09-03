@@ -35,6 +35,7 @@
             <Button type="error" size="small" @click="remove(index)">Delete</Button>
         </template>
     </Table>
+    <br><br><br><br>
         </div>
 </template>
 <script>

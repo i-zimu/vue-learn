@@ -30,7 +30,8 @@ export default {
   width: 100%;
   height: 100vh;
   text-align: center;
-  background: rgb(40, 42, 45);
+  // background: rgb(40, 42, 45);
+  // background: #fff;
   padding-top: 60px;
 }
 .back{
