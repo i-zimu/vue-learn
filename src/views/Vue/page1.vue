@@ -57,6 +57,7 @@ export default {
 
 <style lang="less" scoped>
 .part{
+  width: 80%;
   text-align: center;
   border-bottom: 1px solid #ccc; 
   margin: 10px auto;

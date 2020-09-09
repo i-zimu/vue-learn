@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="backHome">
-      <i><router-link to="/"><img src="./assets/logo.png" alt="" srcset=""></router-link></i>
+      <i><router-link to="/"><img src="./assets/vueBack.png" alt="" srcset=""></router-link></i>
     </div>
     <router-view/>
   </div>

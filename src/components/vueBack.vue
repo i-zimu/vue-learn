@@ -1,7 +1,7 @@
 <template>
   <div class="vueBack">
     <i><router-link to="/vue/index">
-      <img src="../assets/vueBack.png" title="vueBack">
+      <img src="../assets/vuejs.png" title="vueBack">
     </router-link></i>
   </div>
 </template>
