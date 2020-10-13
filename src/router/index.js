@@ -86,6 +86,43 @@ Vue.use(VueRouter)
       name: 'page4',
       component: () => import('../views/Vue/page4.vue')
     },
+
+    // 大屏展示
+    {
+      path: '/largeScreenIndex',
+      name: 'largeScreen',
+      component: () => import('../views/largeScreen/largeScreenIndex.vue')
+    },
+    //页面公共头部
+    {
+      path: '/PublicHeader',
+      name: 'PublicHeader',
+      component: () => import('../views/largeScreen/components/PublicHeader.vue')
+    },
+    // 大屏展示page1
+    {
+      path: '/page1',
+      name: 'page1',
+      component: () => import('../views/largeScreen/page1.vue')
+    },
+    // 大屏展示page2
+    {
+      path: '/page2',
+      name: 'page2',
+      component: () => import('../views/largeScreen/page2.vue')
+    },
+    // 大屏展示page3
+    {
+      path: '/page3',
+      name: 'page3',
+      component: () => import('../views/largeScreen/page3.vue')
+    },
+    // 大屏展示page4
+    {
+      path: '/page4',
+      name: 'page4',
+      component: () => import('../views/largeScreen/page4.vue')
+    },
 ]
 
 const router = new VueRouter({

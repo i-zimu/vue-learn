@@ -1,0 +1,17 @@
+/* 多浏览器兼容性写法（亲测有效） */
+
+/* Chrome, Safari, Opera 写法 */
+:-webkit-full-screen { }
+
+/* Firefox 写法 */
+:-moz-full-screen { }
+
+/* IE/Edge 写法 */
+:-ms-fullscreen { }
+
+/* 标准写法 */
+:fullscreen { }
+
+
+/* 也可以通过区分全屏元素 css选择器、浏览器全屏样式 */
+#fullscreenEle:fullscreen { }
