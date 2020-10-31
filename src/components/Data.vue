@@ -11,15 +11,6 @@ export default {
   },
   mounted() {
     this.currentTime();
-    // this.sendAuthCode = true;
-    // this.auth_time = 10;
-    // var auth_timetimer = setInterval(() => {
-    //   this.auth_time--;
-    //   if (this.auth_time <= 0) {
-    //     this.sendAuthCode = false;
-    //     clearInterval(auth_timetimer);
-    //   }
-    // }, 1000);
   },
   beforeDestroy: function () {
     if (this.getDate) {

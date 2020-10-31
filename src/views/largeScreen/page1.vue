@@ -8,7 +8,9 @@
           <div class="item"></div>
         </div>
         <div class="part-main">
-          <div class="item-main"></div>
+          <div class="item-main">
+            <echart/>
+          </div>
         </div>
         <div class="part">
           <div class="item"></div>
@@ -33,9 +35,11 @@
 
 <script>
 import PublicHeader from "./components/PublicHeader";
+import echart from "../../views/echarts/gansuMap"
 export default {
   components: {
     PublicHeader,
+    echart
   },
   data() {
     return {};

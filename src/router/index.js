@@ -31,15 +31,15 @@ Vue.use(VueRouter)
     component: () => import('../views/JavaScript/page2.vue')
   },
   {
-    path: '//example',
+    path: '/example',
     name: 'example',
     component: () => import('../views/echarts/example.vue')
   },
-  // {
-  //   path: '/project/gansuMap',
-  //   name: 'gansuMap',
-  //   component: () => import('../views/project/gansuMap.vue')
-  // },
+  {
+    path: '/gansuMap',
+    name: 'gansuMap',
+    component: () => import('../views/echarts/gansuMap.vue')
+  },
   {
     path: '/chinaMap',
     name: 'chinaMap',

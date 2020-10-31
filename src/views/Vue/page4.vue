@@ -3,6 +3,7 @@
 <div class="title">
     <vueBack> </vueBack>
     <h1>vue--</h1>
+    
 </div>
 </template>
 

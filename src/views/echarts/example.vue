@@ -32,6 +32,13 @@ export default {
       };
       // 使用刚指定的配置项和数据显示图表。
       myChart.setOption(option);
+
+      setTimeout(() => {
+        window.onresize = function(){
+          myChart.resize();
+        }
+        
+      }, 10);
     }
   },
   mounted() {
@@ -41,9 +48,11 @@ export default {
 </script>
 <style lang="less" scoped>
 .main{
-  width: 600px;
-  height: 400px;
+  width: 60%;
+  height: 50%;
   margin: 80px auto 0;
+  background: rgba(100,100,100,.5);
+  color: aliceblue;
 }
 </style>
 

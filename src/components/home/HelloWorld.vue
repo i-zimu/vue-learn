@@ -35,11 +35,11 @@
       <div class="part">
         <h3>Echarts 实例</h3>
         <ul>
-          <li><router-link to="/echarts/example">入门示例</router-link></li>
+          <li><router-link to="/example">入门示例</router-link></li>
           |
-          <li><router-link to="/echarts/gansuMap">甘肃地图</router-link></li>
+          <li><router-link to="/gansuMap">甘肃地图</router-link></li>
           |
-          <li><router-link to="/echarts/chinaMap">中国地图</router-link></li>
+          <li><router-link to="/chinaMap">中国地图</router-link></li>
         </ul>
       </div>
       <div class="part">
