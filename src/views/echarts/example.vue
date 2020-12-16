@@ -51,7 +51,7 @@ export default {
   width: 60%;
   height: 50%;
   margin: 80px auto 0;
-  background: rgba(100,100,100,.5);
+//   background: rgba(100,100,100,.5);
   color: aliceblue;
 }
 </style>

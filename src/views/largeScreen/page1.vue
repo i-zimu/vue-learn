@@ -92,7 +92,7 @@ export default {
       height: 15vh;
       margin: 1.8vh auto 1vh;
       // border: solid 1px #ccc;
-      background: url();
+    //   background: url();
       list-style: none;
       background: url(../../assets/img/largeScreen/bg-footer-border.png);
       background-size: 100% 100%;

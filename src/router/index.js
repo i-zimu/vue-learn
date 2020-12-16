@@ -86,6 +86,24 @@ Vue.use(VueRouter)
       name: 'page4',
       component: () => import('../views/Vue/page4.vue')
     },
+    // baiduMap
+    {
+        path: '/Vue/page5',
+        name: 'page5',
+        component: () => import('../views/Vue/page5.vue')
+      },
+      // baiduMap
+    {
+        path: '/page6',
+        name: 'page6',
+        component: () => import('../views/Vue/page6.vue')
+      },
+    // 二维码
+    {
+        path: '/Vue/page7',
+        name: 'page7',
+        component: () => import('../views/Vue/page7.vue')
+      },
 
     // 大屏展示
     {
@@ -123,6 +141,12 @@ Vue.use(VueRouter)
       name: 'page4',
       component: () => import('../views/largeScreen/page4.vue')
     },
+    // 图片放大缩小插件
+    {
+        path: '/PicAddSub',
+        name: 'PicAddSub',
+        component: () => import('../views/PlugIn/pictureAddSub.vue')
+      },
 ]
 
 const router = new VueRouter({

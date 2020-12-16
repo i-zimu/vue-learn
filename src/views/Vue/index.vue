@@ -8,6 +8,9 @@
       <li><router-link to="/Vue/page2">vue-router</router-link></li>|
       <li><router-link to="/Vue/page3">VueX</router-link></li>|
       <li><router-link to="/Vue/page4">Vue--</router-link></li>
+      <li><router-link to="/Vue/page5">baiduMap</router-link></li>
+      <li><router-link to="/page6">baiduMap</router-link></li>
+      <li><router-link to="/Vue/page7">二维码</router-link></li>
     </ul>
     <!-- <ul>
       <li><router-link to="/Vue/page1">表单绑定修饰符</router-link></li>|

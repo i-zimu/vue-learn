@@ -125,7 +125,8 @@ export default {
                     },
                     {
                         title: 'Age',
-                        key: 'age'
+                        key: 'age',
+                        align: 'center'
                     },
                     {
                         title: 'Address',

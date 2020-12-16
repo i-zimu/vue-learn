@@ -25,7 +25,17 @@ Vue.prototype.$echarts = echarts
 // Vue.use(VueRouter);
 Vue.use(ViewUI);
 
+//全局引入baiduMap
+import BaiduMap from 'vue-baidu-map'
+Vue.use(BaiduMap, {ak: 'xVjR2UP65RYW4hGTcrXYEMwBuG5T5B4O'})
+
 Vue.config.productionTip = false
+
+//按需引入elementUi
+import { Button, Select } from 'element-ui';
+
+Vue.use(Button)
+Vue.use(Select)
 
 new Vue({
   router,
