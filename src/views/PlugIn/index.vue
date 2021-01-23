@@ -6,9 +6,8 @@
     <div>
       <h3>JavaScript原生案例</h3>
     <ul>
-      <li><router-link to="//PicAddSub">图片放大缩小插件</router-link></li>|
-      <!-- <li><router-link to="/JavaScript/page2">JavaScript原生练习</router-link></li>
-      <li><router-link to="/JavaScript/page2">JavaScript原生练习</router-link></li> -->
+      <li><router-link to="/PicAddSub">图片放大缩小插件</router-link></li>|
+      <li><router-link to="/elementUi">ElementUi组件使用</router-link></li>
     </ul>
     </div>
   </div>  

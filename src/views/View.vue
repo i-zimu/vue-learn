@@ -20,7 +20,7 @@ export default {
 <style lang="less" scoped>
 .view{
   width: 100%;
-  height: 90vh;
+//   height: 90vh;
   // background: #ccc;
   margin: 20px auto 40px;
   text-align: center;
@@ -28,7 +28,7 @@ export default {
 
 }
  h1{
-   margin-top: 60px;
+//    margin-top: 60px;
    color: #fff;
  }
 </style>

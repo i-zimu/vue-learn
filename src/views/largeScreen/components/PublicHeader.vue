@@ -1,14 +1,14 @@
 <template>
   <div class="example">
     <div class="header">
-      <div class="navBar">
+      <div class="navBar" @click="goHome">
         <i class="icon1"></i>
         <span>返回首页</span>
       </div>
-      <div class="title">凉山州党建促脱贫抓落实纪实系统</div>
+      <div class="title">-----系统</div>
       <div class="navBar" @click="clickTopBtn('handleFullScreen')">
         <i class="icon2"></i>
-        <span>放大显示</span>
+        <span>{{rightText}}</span>
       </div>
     </div>
   </div>
@@ -18,12 +18,16 @@
 export default {
   data() {
     return {
-      // fullscreen: false,
+      rightText: "全屏模式",
     };
   },
   methods: {
+    goHome() {
+      this.$router.push({ name: "Home" });
+    },
     clickTopBtn() {
-      this.$store.commit("handleFullScreen");
+        this.$store.commit("handleFullScreen");
+        console.log(this.$store.commit("handleFullScreen"))
     },
   },
 };
@@ -36,34 +40,35 @@ export default {
   left: 0;
   z-index: 9999;
   display: flex;
-  justify-content: space-evenly;
-  width: 1920px;
+  justify-content: space-between;
+  width: 100%;
   height: 12vh;
-  background: url(../../../assets/img/largeScreen/bg-header.png);
+  background: url(../../../assets/img/largeScreen/bg-header.png) center;
   .navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 30px;
-    line-height: 30px;
-    margin-top: 30px;
+    margin: 30px 30px 0;
+    color: #fff;
     cursor: pointer;
     .icon1 {
       display: inline-block;
-      width: 30px;
-      height: 30px;
+      width: 24px;
+      height: 24px;
       background: url(../../../assets/img/largeScreen/icon-home.png) no-repeat;
-      background-position: 0 6px;
     }
     .icon2 {
       display: inline-block;
-      width: 30px;
-      height: 30px;
+      width: 24px;
+      height: 24px;
       background: url(../../../assets/img/largeScreen/icon-enlarge.png)
         no-repeat;
-      background-position: 0 6px;
     }
     span {
       display: inline-block;
-      font-size: 24px;
+      font-size: 20px;
       font-weight: 400;
       margin-left: 10px;
     }

@@ -8,8 +8,6 @@
     <ul>
       <li><router-link to="/JavaScript/page1">jQuery</router-link></li>|
       <li><router-link to="/JavaScript/page2">JavaScript原生练习</router-link></li>
-      <!-- <li><router-link to="/JavaScript/page1">信访事项查询</router-link></li>
-      <li><router-link to="/JavaScript/page2">单选框显示/隐藏</router-link></li> -->
     </ul>
     </div>
   </div>  

@@ -1,39 +1,34 @@
 <template>
-<div class="total" >
-       <div @click="Change()"></div>
-</div>
+  <div class="total">
+    <div @click="Change()"></div>
+  </div>
 </template>
 <script>
-import $ from 'jquery' 
- export default{
-  methods:{
-    Change(){
-      $("div").toggleClass("div")
+import $ from "jquery";
+export default {
+  methods: {
+    Change() {
+      $("div").toggleClass("div");
       // console.dir($("div"));
-    }
+    },
   },
- }
-
+};
 </script>
 
 <style lang="less" scoped>
-.total{
-  position: absolute;
-  top:100;
-  left: 200;
-  width: 100%;
-  margin: 60px auto 0;
-  div{
-    display: indivne-block;
-    width: 1440px;
-    height: 900px;
-    margin: 10px auto;
-    background: pink;
-    background: url(../../assets/img/bg/bg-home.jpg);
-    color: #000;
+.total {
+  div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 848px;
+    height: 600px;
+    margin: 0 auto;
+    background: url(../../assets/img/bg/bg-home.jpg) no-repeat center/contain;
   }
-  .div{
-    background:url(../../assets/img/bg/bg.jpg);
+  .div {
+    background: url(../../assets/img/bg/bg.jpg) no-repeat center/contain;
   }
 }
 </style>
