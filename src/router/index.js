@@ -11,169 +11,226 @@ const routes = [
         name: 'Home',
         component: Home
     },
-    //viewUi
-    {
-        path: '/view',
-        name: 'View',
-        component: () => import('../views/View.vue')
-    },
-    //js
+    /* 前端基础 front */
+    //javaScript
     {
         path: '/javaScript',
         name: 'JavaScript',
-        component: () => import('../views/JavaScript/index.vue')
+        component: () => import('../views/front/javaScript/index.vue')
     },
+    //jquery
     {
-        path: '/JavaScript/page1',
-        name: 'JavaScript',
-        component: () => import('../views/JavaScript/page1.vue')
+        path: '/jQuery/page1',
+        name: 'page1',
+        component: () => import('../views/front/jQuery/page1.vue')
     },
+    // vue
     {
-        path: '/JavaScript/page2',
-        name: 'JavaScript',
-        component: () => import('../views/JavaScript/page2.vue')
+        path: '/Vue/index',
+        name: 'index',
+        component: () => import('../views/front/vue/index.vue')
     },
+
+    /* 页面布局 */
+    // flex
+    {
+        path: '/flex',
+        name: 'Flex',
+        component: () => import('../views/pageLayout/flex.vue')
+    },
+    // grid
+    {
+        path: '/grid',
+        name: 'Grid',
+        component: () => import('../views/pageLayout/grid.vue')
+    },
+    // float
+    {
+        path: '/float',
+        name: 'Float',
+        component: () => import('../views/pageLayout/float.vue')
+    },
+
+    /* ui组件 */
+    //view
+    {
+        path: '/view',
+        name: 'View',
+        component: () => import('../views/uiLib/view.vue')
+    },
+    // elementUi
+    {
+        path: '/element',
+        name: 'Element',
+        component: () => import('../views/uiLib/elementUi.vue')
+    },
+    // vant
+    {
+        path: '/vant',
+        name: 'Vant',
+        component: () => import('../views/uiLib/vantUi.vue')
+    },
+
+    /* eCharts图表 */
+
     {
         path: '/example',
-        name: 'example',
+        name: 'Example',
         component: () => import('../views/echarts/example.vue')
     },
     {
         path: '/gansuMap',
-        name: 'gansuMap',
+        name: 'GansuMap',
         component: () => import('../views/echarts/gansuMap.vue')
     },
     {
         path: '/chinaMap',
-        name: 'chinaMap',
+        name: 'ChinaMap',
         component: () => import('../views/echarts/chinaMap.vue')
     },
-    {
-        path: '/jQuery/page1',
-        name: 'page1',
-        component: () => import('../views/jQuery/page1.vue')
-    },
-    // vue.js首页
-    {
-        path: '/Vue/index',
-        name: 'index',
-        component: () => import('../views/Vue/index.vue')
-    },
-    // vue返回
-    {
-        path: '/Vue/vueBack',
-        name: 'vueBack',
-        component: () => import('../components/vueBack')
-    },
-    // vue表单绑定修饰符
-    {
-        path: '/Vue/page1',
-        name: 'page1',
-        component: () => import('../views/Vue/page1.vue')
-    },
-    // vue-router
-    {
-        path: '/Vue/page2',
-        name: 'page2',
-        component: () => import('../views/Vue/page2.vue')
-    },
-    // VueX
-    {
-        path: '/Vue/page3',
-        name: 'page3',
-        component: () => import('../views/Vue/page3.vue')
-    },
-    // vue--
-    {
-        path: '/Vue/page4',
-        name: 'page4',
-        component: () => import('../views/Vue/page4.vue')
-    },
-    // baiduMap
-    {
-        path: '/Vue/page5',
-        name: 'page5',
-        component: () => import('../views/Vue/page5.vue')
-    },
-    // baiduMap
-    {
-        path: '/page6',
-        name: 'page6',
-        component: () => import('../views/Vue/page6.vue')
-    },
-    // 二维码
-    {
-        path: '/Vue/page7',
-        name: 'page7',
-        component: () => import('../views/Vue/page7.vue')
-    },
+
+
+
+    /* PC插件 */
 
     // 大屏展示
     {
-        path: '/largeScreenIndex',
-        name: 'largeScreen',
-        component: () => import('../views/largeScreen/largeScreenIndex.vue')
+        path: '/largeScreen',
+        name: 'LargeScreen',
+        component: () => import('../views/pcPlugin/largeScreen/largeScreenIndex.vue')
     },
     //页面公共头部
     {
         path: '/PublicHeader',
         name: 'PublicHeader',
-        component: () => import('../views/largeScreen/components/PublicHeader.vue')
+        component: () => import('../views/pcPlugin/largeScreen/components/PublicHeader.vue')
     },
     // 大屏展示page1
     {
         path: '/page1',
         name: 'page1',
-        component: () => import('../views/largeScreen/page1.vue')
+        component: () => import('../views/pcPlugin/largeScreen/page1.vue')
     },
     // 大屏展示page2
     {
         path: '/page2',
         name: 'page2',
-        component: () => import('../views/largeScreen/page2.vue')
+        component: () => import('../views/pcPlugin/largeScreen/page2.vue')
     },
     // 大屏展示page3
     {
         path: '/page3',
         name: 'page3',
-        component: () => import('../views/largeScreen/page3.vue')
+        component: () => import('../views/pcPlugin/largeScreen/page3.vue')
     },
     // 大屏展示page4
     {
         path: '/page4',
         name: 'page4',
-        component: () => import('../views/largeScreen/page4.vue')
+        component: () => import('../views/pcPlugin/largeScreen/page4.vue')
     },
+
+
     // 图片放大缩小插件
     {
-        path: '/PicAddSub',
+        path: '/picAddSub',
         name: 'PicAddSub',
-        component: () => import('../views/PlugIn/pictureAddSub.vue')
+        component: () => import('../views/pcPlugin/pictureAddSub.vue')
     },
-    // 按需引入ElementUi
+
+    // 二维码
     {
-        path: '/elementUi',
-        name: 'elementUi',
-        component: () => import('../views/PlugIn/elementUi.vue')
+        path: '/qrCode',
+        name: 'QrCode',
+        component: () => import('../views/pcPlugin/qrCode.vue')
     },
-    // VantUi
+
+    // baiduMap
     {
-        path: '/vantUi',
-        name: 'vantUi',
-        component: () => import('../views/PlugIn/vantUi.vue')
+        path: '/baiduMap',
+        name: 'BaiduMap',
+        component: () => import('../views/pcPlugin/baiduMap.vue')
     },
+    // baiduMap
+    {
+        path: '/bdMap',
+        name: 'bdMap',
+        component: () => import('../views/pcPlugin/bdMap.vue')
+    },
+
+    /* 移动端插件 */
     // mobile-tree
     {
         path: '/mobileTree',
-        name: 'mobileTree',
-        component: () => import('../views/PlugIn/mobileTree.vue')
+        name: 'MobileTree',
+        component: () => import('../views/mobilePlugin/mobileTree.vue')
     },
+
+    //视频插件
+    // video
+    {
+        path: '/video',
+        name: 'Video',
+        component: () => import('../views/mobilePlugin/video.vue')
+    },
+    //语音插件
     // audio
     {
         path: '/audio',
-        name: 'audio',
-        component: () => import('../views/PlugIn/audio.vue')
+        name: 'Audio',
+        component: () => import('../views/mobilePlugin/audio.vue')
     },
+    //钉钉语音
+    // ddAudio
+    {
+        path: '/ddAudio',
+        name: 'DdAudio',
+        component: () => import('../views/mobilePlugin/ddAudio.vue')
+    },
+    //原生语音
+    // addMedia
+    {
+        path: '/addMedia',
+        name: 'AddMedia',
+        component: () => import('../views/mobilePlugin/addMedia.vue')
+    },
+    //jsAudio
+    {
+        path: '/jsAudio',
+        name: 'JsAudio',
+        component: () => import('../views/mobilePlugin/jsAudio.vue')
+    },
+    /* ---------------------------------------------------------------------------------------、 */
+    // vue返回
+    // {
+    //     path: '/Vue/vueBack',
+    //     name: 'vueBack',
+    //     component: () => import('../components/vueBack')
+    // },
+    // vue表单绑定修饰符
+    // {
+    //     path: '/Vue/page1',
+    //     name: 'page1',
+    //     component: () => import('../views/Vue/page1.vue')
+    // },
+    // // vue-router
+    // {
+    //     path: '/Vue/page2',
+    //     name: 'page2',
+    //     component: () => import('../views/Vue/page2.vue')
+    // },
+    // // VueX
+    // {
+    //     path: '/Vue/page3',
+    //     name: 'page3',
+    //     component: () => import('../views/Vue/page3.vue')
+    // },
+    // // vue--
+    // {
+    //     path: '/Vue/page4',
+    //     name: 'page4',
+    //     component: () => import('../views/Vue/page4.vue')
+    // },
 ]
 
 const router = new VueRouter({

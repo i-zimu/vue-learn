@@ -2,18 +2,18 @@
 <template>
   <div class="view">
     <h1>This is a viewUi page</h1>
-    <ViewUi />
+    <!-- <ViewUi /> -->
   </div>
 </template>view
 
 <script>
 
-import ViewUi from "../components/ViewUi"
+// import ViewUi from "../components/ViewUi"
 
 export default {
     name:'View',
     components:{
-        ViewUi
+        // ViewUi
     }
 }
 </script>

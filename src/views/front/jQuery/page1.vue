@@ -25,10 +25,10 @@ export default {
     width: 848px;
     height: 600px;
     margin: 0 auto;
-    background: url(../../assets/img/bg/bg-home.jpg) no-repeat center/contain;
+    // background: url(../../assets/img/bg/bg-home.jpg) no-repeat center/contain;
   }
   .div {
-    background: url(../../assets/img/bg/bg.jpg) no-repeat center/contain;
+    // background: url(../../assets/img/bg/bg.jpg) no-repeat center/contain;
   }
 }
 </style>

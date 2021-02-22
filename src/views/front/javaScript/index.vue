@@ -36,7 +36,7 @@ export default {
   width: 50px;
   height: 50px;
   color: #97c8fa;
-  background: url(../../assets/jq.png) no-repeat;
+//   background: url(../../assets/jq.png) no-repeat;
   background-size: contain;
 }
 h1{

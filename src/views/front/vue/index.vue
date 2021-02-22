@@ -1,7 +1,7 @@
 /* vue 学习列表 */
 <template>
   <div class="total">
-    <vueBack> </vueBack>
+    <!-- <vueBack> </vueBack> -->
     <h1>vue 学习列表</h1>
     <ul>
       <li><router-link to="/Vue/page1">表单绑定修饰符</router-link></li>|
@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import vueBack from "../../components/vueBack"
+// import vueBack from "../../components/vueBack"
 export default {
   name: 'total',
   data() { 
@@ -31,7 +31,7 @@ export default {
     }
   },
   components:{
-    vueBack
+    // vueBack
   }
  }
 </script>

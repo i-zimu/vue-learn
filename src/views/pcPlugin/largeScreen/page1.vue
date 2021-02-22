@@ -9,7 +9,7 @@
         </div>
         <div class="part-main">
           <div class="item-main">
-            <echart/>
+            <!-- <echart/> -->
           </div>
         </div>
         <div class="part">
@@ -35,11 +35,11 @@
 
 <script>
 import PublicHeader from "./components/PublicHeader";
-import echart from "../../views/echarts/gansuMap"
+// import echart from "../../views/echarts/gansuMap"
 export default {
   components: {
     PublicHeader,
-    echart
+    // echart
   },
   data() {
     return {};
@@ -94,14 +94,14 @@ export default {
       // border: solid 1px #ccc;
     //   background: url();
       list-style: none;
-      background: url(../../assets/img/largeScreen/bg-footer-border.png);
+    //   background: url(../../assets/img/largeScreen/bg-footer-border.png);
       background-size: 100% 100%;
 
       li {
         width: 260px;
         height: 13vh;
         // border: 1px solid #80dfff;
-        background: url(../../assets/img/largeScreen/bg-footer-part.png);
+        // background: url(../../assets/img/largeScreen/bg-footer-part.png);
         background-size: 100% 100%;
       }
       .box {
@@ -110,11 +110,11 @@ export default {
         cursor: pointer;
       }
       .box:nth-child(1) {
-        background: url(../../assets/img/largeScreen/icon-btn-left.png);
+        // background: url(../../assets/img/largeScreen/icon-btn-left.png);
         background-size: 100% 100%;
       }
       .box:nth-child(8) {
-        background: url(../../assets/img/largeScreen/icon-btn-right.png);
+        // background: url(../../assets/img/largeScreen/icon-btn-right.png);
         background-size: 100% 100%;
       }
     }

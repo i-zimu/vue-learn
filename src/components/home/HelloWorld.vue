@@ -5,13 +5,13 @@
         <h3>前端基础</h3>
         <ul>
           <li>
-            <router-link to="/JavaScript/index">JavaScript</router-link>
+            <router-link to="/">JavaScript</router-link>
           </li>
           <li>
-            <router-link to="/jQuery/page1">jQuery</router-link>
+            <router-link to="/">jQuery</router-link>
           </li>
           <li>
-            <router-link to="/Vue/index">Vue</router-link>
+            <router-link to="/">Vue</router-link>
           </li>
 
         </ul>
@@ -36,14 +36,14 @@
         <h3>UI组件</h3>
         <ul>
           <li>
-            <router-link to="/view">View UI</router-link>
+            <router-link to="/">View UI</router-link>
           </li>
           <li>
-            <router-link to="/elementUi">ElementUi</router-link>
+            <router-link to="/">ElementUi</router-link>
           </li>
 
           <li>
-            <router-link to="/vantUi">VantUi</router-link>
+            <router-link to="/">VantUi</router-link>
           </li>
         </ul>
       </div>
@@ -51,15 +51,15 @@
         <h3>Echarts图表</h3>
         <ul>
           <li>
-            <router-link to="/example">入门示例</router-link>
+            <router-link to="/">入门示例</router-link>
           </li>
 
           <li>
-            <router-link to="/gansuMap">甘肃地图</router-link>
+            <router-link to="/">甘肃地图</router-link>
           </li>
 
           <li>
-            <router-link to="/chinaMap">中国地图</router-link>
+            <router-link to="/">中国地图</router-link>
           </li>
         </ul>
       </div>
@@ -67,18 +67,18 @@
         <h3>插件应用</h3>
         <ul>
             <li>
-            <router-link to="/largeScreenIndex">大屏展示</router-link>
+            <router-link to="/">大屏展示</router-link>
           </li>
           <li>
-            <router-link to="/PicAddSub">图片预览</router-link>
-          </li>
-
-          <li>
-            <router-link to="/echarts/gansuMap">二维码</router-link>
+            <router-link to="/">图片预览</router-link>
           </li>
 
           <li>
-            <router-link to="/echarts/chinaMap">百度地图</router-link>
+            <router-link to="/">二维码</router-link>
+          </li>
+
+          <li>
+            <router-link to="/">百度地图</router-link>
           </li>
 
           <li>
@@ -86,7 +86,23 @@
           </li>
 
           <li>
-            <router-link to="/audio">video</router-link>
+            <router-link to="/audio">audio</router-link>
+          </li>
+
+          <li>
+            <router-link to="/ddAudio">钉钉语音</router-link>
+          </li>
+
+          <li>
+            <router-link to="/addMedia">原生语音</router-link>
+          </li>
+
+          <li>
+            <router-link to="/jsAudio">jsAudio</router-link>
+          </li>
+
+          <li>
+            <router-link to="/video">video</router-link>
           </li>
         </ul>
       </div>

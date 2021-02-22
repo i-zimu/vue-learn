@@ -43,7 +43,7 @@ export default {
   justify-content: space-between;
   width: 100%;
   height: 12vh;
-  background: url(../../../assets/img/largeScreen/bg-header.png) center;
+//   background: url(../../../assets/img/largeScreen/bg-header.png) center;
   .navBar {
     display: flex;
     justify-content: center;
@@ -57,14 +57,14 @@ export default {
       display: inline-block;
       width: 24px;
       height: 24px;
-      background: url(../../../assets/img/largeScreen/icon-home.png) no-repeat;
+    //   background: url(../../../assets/img/largeScreen/icon-home.png) no-repeat;
     }
     .icon2 {
       display: inline-block;
       width: 24px;
       height: 24px;
-      background: url(../../../assets/img/largeScreen/icon-enlarge.png)
-        no-repeat;
+    //   background: url(../../../assets/img/largeScreen/icon-enlarge.png)
+        // no-repeat;
     }
     span {
       display: inline-block;

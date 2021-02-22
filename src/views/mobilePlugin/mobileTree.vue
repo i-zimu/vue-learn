@@ -43,5 +43,10 @@ export default {
 
 <style lang="less" scoped>
 .mobileTree {
+  /deep/.vs-tree {
+    .selected {
+      background-color: transparent!important;
+    }
+  }
 }
 </style>

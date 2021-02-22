@@ -40,6 +40,8 @@ Vue.use(DatePicker)
 
 import Vant from 'vant';
 import 'vant/lib/index.css';
+import { Toast } from 'vant';
+Vue.use(Toast);
 Vue.use(Vant);
 
 import { install } from 'vs-tree'
@@ -49,7 +51,11 @@ Vue.use(install)
 import Vconsole from 'vconsole';
 let vConsole = new Vconsole();
 export default vConsole
+//语音
+import Recorder from 'js-audio-recorder';
+let recorder = new Recorder();
 
+import CryptoJS from 'crypto-js';
 new Vue({
     router,
     store,
