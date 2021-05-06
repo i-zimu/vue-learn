@@ -70,6 +70,12 @@ const routes = [
         name: 'Vant',
         component: () => import('../views/uiLib/vantUi.vue')
     },
+    // antDesign
+    {
+      path: '/antDesign',
+      name: 'AntDesign',
+      component: () => import('../views/uiLib/antDesign.vue')
+  },
 
     /* eCharts图表 */
 
@@ -199,6 +205,12 @@ const routes = [
         path: '/jsAudio',
         name: 'JsAudio',
         component: () => import('../views/mobilePlugin/jsAudio.vue')
+    },
+    //Tree -iview
+    {
+        path: '/iTree',
+        name: 'ITree',
+        component: () => import('../views/pcPlugin/iTree.vue')
     },
     /* ---------------------------------------------------------------------------------------、 */
     // vue返回

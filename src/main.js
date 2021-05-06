@@ -14,6 +14,7 @@ import "../src/assets/css/clearDefault.css"
 
 //引入vue-awesome-swiper
 import VueAwesomeSwiper from 'vue-awesome-swiper'
+// import 'swiper/css/swiper.css'
 Vue.use(VueAwesomeSwiper)
 
 import VueFullpage from 'vue-fullpage.js';
@@ -32,11 +33,19 @@ Vue.use(BaiduMap, { ak: 'xVjR2UP65RYW4hGTcrXYEMwBuG5T5B4O' })
 Vue.config.productionTip = false
 
 //按需引入elementUi
-import { Button, Select, DatePicker } from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+import { Button, Select, DatePicker, Cascader } from 'element-ui';
 
-Vue.use(Button)
-Vue.use(Select)
-Vue.use(DatePicker)
+Vue.use(Button);
+Vue.use(Select);
+Vue.use(DatePicker);
+Vue.use(Cascader);
+
+//引入antd
+// import { Button } from 'ant-design-vue';
+// Vue.use(Button);
+import 'ant-design-vue/dist/antd.css'; // or 'ant-design-vue/dist/antd.less'
+
 
 import Vant from 'vant';
 import 'vant/lib/index.css';
@@ -57,7 +66,7 @@ let recorder = new Recorder();
 
 import CryptoJS from 'crypto-js';
 new Vue({
-    router,
-    store,
-    render: h => h(App)
+  router,
+  store,
+  render: h => h(App)
 }).$mount('#app')

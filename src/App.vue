@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <BackHome />
+    <!-- <BackHome /> -->
     <router-view />
   </div>
 </template>
 
 <script>
-import BackHome from "../src/common/BackHome";
+// import BackHome from "../src/common/BackHome";
 export default {
   name: "",
   components: {
-    BackHome,
+    // BackHome,
   },
 };
 </script>
