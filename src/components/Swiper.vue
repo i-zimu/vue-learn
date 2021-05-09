@@ -1,6 +1,6 @@
 <template>
   <div class="swiper-wrap">
-    <Carousel autoplay v-model="value2" loop :autoplay-speed="2000">
+    <Carousel autoplay v-model="value2" loop :autoplay-speed="3000">
       <CarouselItem>
         <div class="demo-carousel">
           <img class="imgSty" :src="img1" alt="">
