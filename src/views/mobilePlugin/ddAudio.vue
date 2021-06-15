@@ -13,7 +13,6 @@
 </template>
 
 <script>
-import * as dd from "dingtalk-jsapi";
 import { Toast } from "vant";
 export default {
   name: "ddAudio",

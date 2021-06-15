@@ -1,13 +1,10 @@
 <template>
   <div class="mobileTree">
     <h1>mobileTree</h1>
-    <vs-tree checkOnClickNode showIcon onlyShowLeafIcon showCheckbox highlightCurrent animation :data="data">
-    </vs-tree>
   </div>
 </template>
 
 <script>
-import vsTree from "vs-tree";
 export default {
   name: "mobileTree",
   data() {
@@ -43,10 +40,5 @@ export default {
 
 <style lang="less" scoped>
 .mobileTree {
-  /deep/.vs-tree {
-    .selected {
-      background-color: transparent!important;
-    }
-  }
 }
 </style>
