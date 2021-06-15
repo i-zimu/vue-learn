@@ -3,6 +3,7 @@
     <div class="content">
       <div class="part">
         <h3>前端基础</h3>
+        <h3>前端基础</h3>
         <ul>
           <li>
             <router-link to="/">JavaScript</router-link>
