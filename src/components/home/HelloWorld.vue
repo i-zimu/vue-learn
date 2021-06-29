@@ -74,6 +74,9 @@
           <li>
             <router-link to="/">大屏展示</router-link>
           </li>
+           <li>
+            <router-link to="/watermark">水印</router-link>
+          </li>
           <li>
             <router-link to="/iTree">ivew_tree</router-link>
           </li>

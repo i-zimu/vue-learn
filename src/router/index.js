@@ -105,6 +105,12 @@ const routes = [
         name: 'LargeScreen',
         component: () => import('../views/pcPlugin/largeScreen/largeScreenIndex.vue')
     },
+    // 水印
+    {
+      path: '/watermark',
+      name: 'Watermark',
+      component: () => import('../views/pcPlugin/watermark/index.vue')
+  },
     //页面公共头部
     {
         path: '/PublicHeader',
